@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="FR-fr">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="main.css">
+
+      
+    <title id="title" >Comix</title>
+  </head>
+
+  
+  <body>
+    <div id="books" class="open" >
+      <img class="thumb" onclick=" weekend();reload();" src="img/weekend/0.jpg" alt="">
+      <img class="thumb" onclick="Chapter()" src="img/twokind/0.jpg" alt="">
+    </div>
+
+    <div class="cont">
+
+        
+        
+        <img id="cover" src="" alt="">
+
+        <div>
+
+        <button onclick="zoom()">Zoom</button>
+        <button onclick="Aller()">Aller à</button>
+        <a href="#books"><button onclick="books()">Livres</button></a> <br>
+
+        <img class="small" id="comic" src="" alt="">
+          <br>
+          
+        <button onclick="prev()">Prev</button>
+        <h2 id="num"></h2>
+        <button onclick="next()">Next</button> <br>
+
+        </div>
+        <br>
+        
+        
+    </div>
+    <!-- <div class="control">
+      <button onclick="prev()">Prev</button>
+      <h2 id="num"></h2>
+      <button onclick="next()">Next</button> <br>
+      
+    </div> -->
+
+
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <p>Aller à...</p> <br>
+    <input id="numInput" type="number" min="1" max="20"> <span>/ </span> <span id="numMax" ></span>
+    <button onclick="myFunction()">Go</button>
+  </div>
+
+</div>
+
+
+
+<div id="chapters" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content-chap">
+    <img class="thumb" onclick=" twokind();reload();" src="img/twokind/0.jpg" alt="">
+    <img class="thumb" onclick=" twokind1();reload();" src="img/twokind/ch1/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind2();reload();" src="img/twokind/ch2/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind3();reload();" src="img/twokind/ch3/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind4();reload();" src="img/twokind/ch4/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind5();reload();" src="img/twokind/ch5/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind6();reload();" src="img/twokind/ch6-1/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind7();reload();" src="img/twokind/ch6-2/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind8();reload();" src="img/twokind/ch7/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind9();reload();" src="img/twokind/ch8/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind10();reload();" src="img/twokind/ch9/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind11();reload();" src="img/twokind/ch10/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind12();reload();" src="img/twokind/ch11/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind13();reload();" src="img/twokind/ch12/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind14();reload();" src="img/twokind/ch13/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind15();reload();" src="img/twokind/ch14/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind16();reload();" src="img/twokind/ch15/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind17();reload();" src="img/twokind/ch16/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind18();reload();" src="img/twokind/ch17/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind19();reload();" src="img/twokind/ch18/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind20();reload();" src="img/twokind/ch19/1.jpg" alt="">
+    <img class="thumb" onclick=" twokind21();reload();" src="img/twokind/ch20/1.jpg" alt="">
+  </div>
+
+</div>
+
+
+
+
+	
+
+  <script src="comic.js"></script>
+  <script src="script.js"></script>
+  
+  </body>
+  
+
+</html>
