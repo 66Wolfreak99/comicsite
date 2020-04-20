@@ -3,6 +3,8 @@
 
 function weekend(){choose = 'weekend'; max = 20; chapter = false};
 
+function fcomic(){choose = 'comic'; max = 5; chapter = false};
+
 
 
 function twokind(){choose = 'twokind'; max = 5; chapter = true};
