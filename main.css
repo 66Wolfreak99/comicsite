@@ -68,15 +68,26 @@ button{
     font-weight: 900;
     background: linear-gradient(180deg, rgb(199, 199, 199), rgb(105, 105, 105));
     border-radius:5px;
+    outline: 0 none;
 }
-
 
 button:active{
     background: linear-gradient(0deg, rgb(199, 199, 199), rgb(105, 105, 105));
     
 }
 
+button:active{
+    background: linear-gradient(0deg, rgb(199, 199, 199), rgb(105, 105, 105));
+    
+}
 
+.arrow{
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
 
 
 img{
