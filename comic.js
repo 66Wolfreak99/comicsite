@@ -1,7 +1,7 @@
 
 
 
-function weekend(){choose = 'weekend'; max = 20; chapter = false};
+
 
 function fcomic(){choose = 'comic'; max = 5; chapter = false};
 
