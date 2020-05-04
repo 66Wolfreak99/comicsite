@@ -14,9 +14,10 @@ body{
 
 .cont{
     margin: auto;
-    margin-top:60px;
+    margin-top:10px;
     width:auto;
     text-align:center;
+    
 
 
 }
@@ -26,12 +27,20 @@ body{
 #books{
     background: rgb(29, 29, 29);
     box-shadow: inset rgba(0, 0, 0, 0.555) 0px -44px 50px;
-    width:100%;
-    overflow: hidden;
+    width:auto;
+    overflow: auto;
+    text-align:center;
+}
+
+.bookflex{
+    width:auto;
+    height:auto;
+    display:flex;
+    align-items: center;
 }
 
 .open{
-    height:350px;
+    height:310px;
     transition: height 0.5s ease-out;
     
 }
@@ -92,12 +101,13 @@ button:active{
 
 img{
     display:inline-block;
-    margin:20px;
+    margin:10px;
     width:200px;
     
 }
 
 .thumb{
+    width:156px;
     transition: transform 0.2s ease-in;
 }
 
@@ -115,12 +125,12 @@ img{
 }
 
 .small{
-    width:600px;
+    width:350px;
     transition: width 0.5s ease-in-out;
 }
 
 .big{
-    width:1000px;
+    width:500px;
     transition: width 0.5s ease-in-out;
 }
 
@@ -145,9 +155,9 @@ h2{
 
 
 input#numInput {
-    height: 23px;
-    font-size: 21px;
-    width: 55px;
+    height: 37px;
+    font-size: 37px;
+    width: 120px;
     background: #6e6e6e;
     color: white;
     text-shadow: #0000008f 2px 2px 2px;
@@ -183,13 +193,14 @@ input#numInput {
   .modal-content {
     color: white;
     background-color: rgb(22, 22, 22);
-    border-radius: 5px;
+    border-radius: 10px;
     border: solid grey 1px;
-    box-shadow: rgba(0, 0, 0, 0.493) 0px 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.493) 0px 7px 5px;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 160px; 
+    width: 250px;
+    font-size: 30px; 
   }
 
   .modal-content-chap {
@@ -199,7 +210,7 @@ input#numInput {
     border: solid grey 1px;
     box-shadow: rgba(0, 0, 0, 0.493) 0px 5px 5px;
     margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    text-align: center;
     border: 1px solid #888;
     width: auto; 
   }
